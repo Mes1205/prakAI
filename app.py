@@ -9,7 +9,7 @@ from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
 import re
 from collections import deque
-from main import is_semantically_relevant  # <- import fungsi similarity check
+from rel import is_semantically_relevant  # <- import fungsi similarity check
 import os
 from dotenv import load_dotenv
 
